@@ -1,13 +1,11 @@
 # Waffle
 Waffle: A Global Data-driven High-resolution Weather Model using Adaptive Fourier Neural
 
-FourCastNet, short for Fourier Forecasting Neural Network, is a global data-driven weather forecasting model that provides accurate short to medium-range global predictions at 0.25∘ resolution. FourCastNet accurately forecasts high-resolution, fast-timescale variables such as the surface wind speed, precipitation, and atmospheric water vapor. 
+Waffle, short for Fourier Forecasting Neural Network, is a global data-driven weather forecasting model that provides accurate short to medium-range global predictions at 0.25∘ resolution. Waffle accurately forecasts high-resolution, fast-timescale variables such as the surface wind speed, precipitation, and atmospheric water vapor. 
 
 ## Training:
 
 The model is trained on a subset of ERA5 reanalysis data on single levels of data heads.
-
-The subset of the ERA5 training data that FCN was trained on is hosted at the National Energy Resarch Scientific Computing Center. For convenience it is available to all via Globus at the following link. 
 
 ```
 FCN_ERA5_data_v0
