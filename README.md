@@ -36,21 +36,6 @@ FCN_ERA5_data_v0
 
 ```
 
-Precomputed stats are provided at [additional](https://app.globus.org/file-manager?origin_id=945b3c9e-0f8c-11ed-8daf-9f359c660fbd&origin_path=%2F~%2Fadditional%2F) and have the directory structure:
-```
-stats_v0
-│   global_means.npy  
-│   global_stds.npy  
-│   land_sea_mask.npy  
-│   latitude.npy  
-│   longitude.npy  
-│   time_means.npy
-│   time_means_daily.h5
-└───precip
-│   │   time_means.npy
-
-```
-
 Training configurations can be set up in [config/AFNO.yaml](config/AFNO.yaml). The following paths need to be set by the user. These paths should point to the data and stats you downloaded in the steps above:
 
 ```
